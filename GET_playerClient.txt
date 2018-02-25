@@ -1,0 +1,6 @@
+title GET ENDPOINT
+
+playerClient->DPSS: GET Player Account Request
+note right of playerClient: GET /dpss/playerAccounts/{:id}
+note right of DPSS: Return player account
+DPSS->playerClient: 200 OK {Account Details}
