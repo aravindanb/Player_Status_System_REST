@@ -1,0 +1,6 @@
+title Basic Sequence
+
+playerClient->DPSS: Create Player Account Request
+note right of playerClient: POST /dpss/playerAccounts
+note right of DPSS: Create, store, return player account
+DPSS->playerClient: 200 OK {id: 123456, link: https://distributed-player-status-system/playerAccounts/123456}
