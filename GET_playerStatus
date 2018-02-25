@@ -1,0 +1,6 @@
+title GET endpoint for Admin Client
+
+adminClient->DPSS: GET Player Accounts Request
+note right of adminClient: GET /dpss/playerAccounts/Status
+note right of DPSS: Return player accounts and Statuses
+DPSS->adminClient: 200 OK {Server Status + Combined Player Status}
